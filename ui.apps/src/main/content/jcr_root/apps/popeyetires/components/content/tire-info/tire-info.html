@@ -1,0 +1,14 @@
+<div data-sly-use.tire="${'com.popeyetires.popeyetires.core.filters.TireInfoWcmUse'}">
+	<img src="${tire.tireInfo.tireImage}" alt="${tire.tireInfo.title}" style="float:left; width: 500px;"/>
+	<h4>${tire.tireInfo.title}</h4>
+    <div data-sly-test.descEn="${tires.locale == enLang}" data-sly-unwrap>
+		<div>${tire.tireInfo.descriptionEn}</div>
+    </div>
+    <div data-sly-test="${!descEn}" data-sly-unwrap>
+		<div>${tire.tireInfo.descriptionFr}</div>
+    </div>
+
+    <div>${'Tread Depth' @ i18n, locale=tire.locale}: ${tire.tireInfo.treadDepth}</div>
+    <div>${'warranty' @ i18n, locale=tire.locale}: ${tire.tireInfo.warrantyInKM}</div>
+    <p>${'Price' @ i18n, locale=tire.locale}: ${tire.tireInfo.price}</p>
+</div>

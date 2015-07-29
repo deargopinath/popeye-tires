@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="350"
+    title="Menu"
+    width="640"
+    xtype="dialog">
+    <items jcr:primaryType="cq:TabPanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Settings">
+                <items jcr:primaryType="cq:WidgetCollection">                   
+                    <linkUrl1
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="http://"
+                        fieldLabel="URL:"
+                        name="./linkUrl1"
+                        xtype="pathfield"/>                    
+                        
+                        
+                   
+                        
+                </items>
+            </tab1>
+        </items>
+    </items>
+</jcr:root>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="en-us"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="nt:unstructured">
+    <LANGUAGE
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="EN-US LANGUAGE"/>
+    <performanceInformation
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Performance Information"
+        sling:message="Performance Information"/>
+    <dryPerformance
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="dryPerformance"
+        sling:message="Dry Performance"/>
+    <fuelEfficiency
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fuelEfficiency"
+        sling:message="Fuel Efficiency"/>
+    <icePerformance
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="icePerformance"
+        sling:message="Ice Performance"/>
+    <offRoadPerformance
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="offRoadPerformance"
+        sling:message="Off Road"/>
+    <quietRide
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="quietRide"
+        sling:message="Quiet Ride"/>
+    <rideComfort
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="rideComfort"
+        sling:message="Ride Comfort"/>
+    <treadLife
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="wearLife"
+        sling:message="Tread Life"/>
+    <wetPerformance
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="wetPerformance"
+        sling:message="Wet Performance"/>
+    <winterPerformance
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="winterPerformance"
+        sling:message="Winter Performance"/>
+    <snowPerformance
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="snowPerformance"
+        sling:message="Snow Performance"/>
+    <features
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Features"
+        sling:message="Features"/>
+    <warrantyMiles
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Warranty Miles"
+        sling:message="Warranty Miles"/>
+    <startingAt
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Starting at"
+        sling:message="Starting at"/>
+    <tpmsDetail
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="tpmsDetail"
+        sling:message="A Tire Pressure Monitoring System (TPMS) is an automated system that monitors the air pressure in a vehicle's tires. When air pressure in one or more tires drops 25 percent or more below the correct pressure, a warning indicator alerts the driver. TPMS typically delivers these alerts to the driver through one of two types of warning lights on the dashboard. If you are unaware if your vehicle is equipped with a TPMS, check your vehicle’s owners manual."/>
+    <categoty-performance
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Performance"
+        sling:message="Performance"/>
+    <tires_by_vehicle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Tires By Vehicle"
+        sling:message="Tires By Vehicle"/>
+    <tires_by_type
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Tires By Type"
+        sling:message="Tires By Type"/>
+    <support
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Support"
+        sling:message="Support"/>
+    <company_info
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Company Info"
+        sling:message="Company Info"/>
+    <tread_depth
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Tread Depth"
+        sling:message="Tread Depth"/>
+    <price
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Price"
+        sling:message="MSRP"/>
+    <warranty
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="warranty"
+        sling:message="Warranty"/>
+    <all_season
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="allseason"
+        sling:message="All Season"/>
+    <winter
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Winter"
+        sling:message="Winter"/>
+    <snow
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="snow"
+        sling:message="Snow"/>
+</jcr:root>

@@ -1,0 +1,18 @@
+<div data-sly-use.tires="${'com.popeyetires.popeyetires.core.filters.RelatedTiresWcmUse'}">
+	<h2>${'Related Tire Information' @i18n, locale=tires.locale}</h2>
+	<div data-sly-list="${tires.relatedTireInfo}" style="clear:left;">
+		<div style="width: 450px;">
+			<img src="${item.tireImage}" alt="${item.title}" width="150" height="150" />
+			<h4>${item.title}</h4>
+            <div data-sly-test.descEn="${tires.locale == enLang}" data-sly-unwrap>
+				<div>English : ${item.descriptionEn}</div>
+            </div>
+            <div data-sly-test="${!descEn}" data-sly-unwrap>
+				<div>French : ${item.descriptionFr}</div>
+            </div>
+			<div>${'Tread Depth' @ i18n, locale=tires.locale}: ${item.treadDepth}</div>
+			<div>${'warranty' @ i18n, locale=tires.locale}: ${item.warrantyInKM}</div>
+			<div>${'Price' @ i18n, locale=tires.locale}: ${item.price}</div>
+		</div>
+	</div>
+</div>

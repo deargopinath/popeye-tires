@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
+    <title data-sly-text="${currentPage.title}">Popeye Tires</title>
+    <link rel="shortcut icon" href="/content/dam/champs/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="${currentPage.path}">
+    <meta name="description" content="${currentPage.description}">
+    <meta name="revisit-after" content="3 days">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta itemprop="description" content="${currentPage.description}">
+    <meta itemprop="image" content="">
+    <meta itemprop="name" content="">
+    <meta property="og:description" content="${currentPage.description}">
+    <meta property="og:image:height" content="">
+    <meta property="og:image:width" content="">
+    <meta property="og:image" content="">
+    <meta property="og:title" content="${currentPage.title}">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="${currentPage.path}">
+	<clientlib data-sly-call="${clientLib.all @ categories=['jquery', 'cq:foosballclientslibs', 'popeyetires.all']}" data-sly-unwrap/>
+  </head>
+  <body data-sly-use.popeye="${'com.popeyetires.popeyetires.core.utils.LocaleUtil'}">
+  	<div id="header">
+		<div data-sly-include="/apps/foosball/champs/global.jsp" data-sly-unwrap></div>
+	    <div data-sly-include="/apps/foosball/champs/init.jsp" data-sly-unwrap></div>
+	    <div data-sly-resource="${ @path='sidenav', resourceType='/apps/popeyetires/components/content/sidenav'}" data-sly-unwrap></div>
+    </div>
+    <div id="main">
+    	<!--<div data-sly-resource="${ @path='menu', resourceType='/apps/popeyetires/components/content/menu'}" data-sly-unwrap></div>-->
+        <div data-sly-resource="${ @path='TireDetails', resourceType='/apps/popeyetires/components/content/tire-info'}" data-sly-unwrap></div>
+        <div data-sly-resource="${ @path='TireFeatures', resourceType='/apps/popeyetires/components/content/tire-features'}" data-sly-unwrap></div>
+    	<div data-sly-resource="${ @path='RelatedTires', resourceType='/apps/popeyetires/components/content/related-tires'}" data-sly-unwrap></div>
+   	 	<div data-sly-resource="${ @path='MainParagraph',resourceType='/libs/foundation/components/parsys'}" data-sly-unwrap></div>
+    </div>
+    <div id="footer">
+    	<div data-sly-resource="${'{0}{1}{2}' @ format=['/content/popeyetires', popeye.pagePath, 'home/jcr:content/footer'], wcmmode='disabled'}" data-sly-unwrap></div>
+    </div>
+  </body>
+</html>

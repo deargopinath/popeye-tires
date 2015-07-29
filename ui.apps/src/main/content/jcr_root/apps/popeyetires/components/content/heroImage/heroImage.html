@@ -1,0 +1,16 @@
+<div  data-sly-test.isEditMode="${wcmmode.edit}">
+<div data-sly-use.heroImage="${'com.popeyetires.popeyetires.core.components.HeroImageWcm'}" data-sly-unwrap>
+<div style="background-image:url(${heroImage.backgroundImage @ context='styleToken'});
+    background-position: left top;
+    background-repeat: no-repeat, repeat;
+    padding: 100px;">
+    <img src="${heroImage.logo}">
+	<h3>${heroImage.title}</h3>
+	<p style="display:block;">${heroImage.description}</p>
+	
+	<button type="button" data-sly-test="${heroImage.buttonName}">${heroImage.buttonName}</button>
+</div>
+</div>
+</div>
+
+

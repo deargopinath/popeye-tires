@@ -1,0 +1,18 @@
+# root folder (popeye-tires)
+/.project
+/.hg*
+/.idea
+/*.iml
+/Thumbs.db
+/.DS_Store
+/.*~
+/build
+/private
+/target
+/.settings
+/.classpath
+/bin
+/.vlt*
+/core/target
+/ui.apps/target
+/ui.content/target

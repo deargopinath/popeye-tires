@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="fr-ca"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="nt:unstructured">
+    <LANGUAGE
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:message="FR-ca LANGUAGE"/>
+    <performanceInformation
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Performance Information"
+        sling:message="Performance Information"/>
+    <dryPerformance
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="dryPerformance"
+        sling:message="Performance sur chaussée sèche"/>
+    <fuelEfficiency
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="fuelEfficiency"
+        sling:message="Efficacité énergétique"/>
+    <icePerformance
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="icePerformance"
+        sling:message="Performance sur glace"/>
+    <offRoadPerformance
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="offRoadPerformance"
+        sling:message="Performance hors route"/>
+    <quietRide
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="quietRide"
+        sling:message="Roulement silencieux"/>
+    <rideComfort
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="rideComfort"
+        sling:message="Confort de Roulement"/>
+    <treadLife
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="wearLife"
+        sling:message="Résistance à l'usure"/>
+    <wetPerformance
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="wetPerformance"
+        sling:message="Performance sur chaussée mouillée"/>
+    <winterPerformance
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="winterPerformance"
+        sling:message="Performance en hiver"/>
+    <snowPerformance
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="snowPerformance"
+        sling:message="Performance sur Neige"/>
+    <features
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Features"
+        sling:message="Features"/>
+    <winter
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Winter"
+        sling:message="Hiver"/>
+    <all_season
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="All Season"
+        sling:message="Toutes-saisons"/>
+    <performance
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Performance"
+        sling:message="Performance"/>
+    <touring
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Touring"
+        sling:message="Tourisme"/>
+    <passenger
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Passenger"
+        sling:message="Randonnée"/>
+    <summer
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Summer"
+        sling:message="Été"/>
+    <light_truck
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Light/Medium Truck"
+        sling:message="Camionnette/camion mi-lourd"/>
+    <tires_by_vehicle
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Tires By Vehicle"
+        sling:message="Pneus en véhicule"/>
+    <tires_by_type
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Tires By Type"
+        sling:message="Par type de pneus"/>
+    <support
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Support"
+        sling:message="Soutien"/>
+    <company_info
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Company Info"
+        sling:message="Infos Société"/>
+    <tread_depth
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Tread Depth"
+        sling:message="Profondeur de sculpture"/>
+    <price
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Price"
+        sling:message="CSRP"/>
+    <warranty
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="warranty"
+        sling:message="Garantie"/>
+    <snow
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="snow"
+        sling:message="Neige"/>
+    <best
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Best"
+        sling:message="Meilleur"/>
+    <better
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Better"
+        sling:message="Mieux"/>
+    <season
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Season"
+        sling:message="Saison"/>
+    <tire_features
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Tire Features"
+        sling:message="Caractéristiques Tire"/>
+    <related_tire_information
+        jcr:primaryType="sling:MessageEntry"
+        sling:key="Related Tire Information"
+        sling:message="Renseignements connexes Tire"/>
+</jcr:root>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    height="480"
+    title="Hero Image"
+    width="640"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <text
+                jcr:primaryType="cq:Panel"
+                title="Hero Image"
+                xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <title
+                        jcr:primaryType="nt:unstructured"
+                        fieldLabel="Title"
+                        name="./title"
+                        xtype="textfield"/>
+                    <description
+                        jcr:primaryType="nt:unstructured"
+                        fieldLabel="Description"
+                        name="./description"
+                        xtype="textarea"/>
+                    <logo
+                        jcr:primaryType="cq:Widget"
+                        allowUpload="{Boolean}false"
+                        ddGroups="[media]"
+                        fieldLabel="LOGO"
+                        fileNameParameter="./fileNameLogo"
+                        fileReferenceParameter="./fileReferenceLogo"
+                        mimeTypes="*.jpg;*.png"
+                        name="./logo"
+                        xtype="smartfile"/>
+                    <buttonName
+                        jcr:primaryType="nt:unstructured"
+                        fieldLabel="Button Name"
+                        name="./buttonName"
+                        xtype="textfield"/>
+                </items>
+            </text>
+            <images
+                jcr:primaryType="cq:Panel"
+                title="Hero Images"
+                xtype="panel">
+                <items jcr:primaryType="cq:WidgetCollection">
+                  
+                    <backgroundImage
+                        jcr:primaryType="cq:Widget"
+                        allowUpload="{Boolean}false"
+                        ddGroups="[media]"
+                        fieldLabel="Background Image"
+                        fileNameParameter="./fileNameBackground"
+                        fileReferenceParameter="./fileReferenceBackground"
+                        mimeTypes="*.jpg;*.png"
+                        name="./backgroundImage"
+                        xtype="smartfile"/>
+                </items>
+            </images>
+        </items>
+    </items>
+</jcr:root>
