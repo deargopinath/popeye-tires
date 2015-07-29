@@ -3,7 +3,7 @@
 
   ==============================================================================
 
---%><%@include file="/apps/foosball/champs/global.jsp" %><%
+--%><%@include file="/apps/popeyetires/global.jsp" %><%
 %><%@page import="com.day.cq.wcm.api.WCMMode" %><%
 if (WCMMode.fromRequest(request) != WCMMode.DISABLED) {
     String dlgPath = null;
