@@ -21,3 +21,4 @@ spring-shell.log
 **/src/main/resources/static/main.js
 **/src/main/resources/static/manifest.json
 **/src/main/resources/static/service-worker.js
+*[\s]*
